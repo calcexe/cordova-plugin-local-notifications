@@ -127,8 +127,13 @@ public final class Builder {
                 .setExtras(extras)
                 .setOnlyAlertOnce(false)
                 .setChannelId(options.getChannel())
+<<<<<<< HEAD
                 .setContentTitle("Twoje urządzenie ma wyłączony dźwięk multimediów – sprawdź ustawienia dźwięku.")
                 .setContentText("Włącz dźwięk")
+=======
+                .setContentTitle("Twoje urządzenie ma wyłączony dźwięk multimediów – sprawdź ustawienia dźwięku.'")
+                .setContentText("Włącz dźwięk'")
+>>>>>>> b9d4ef99230eec38255eb9b7d37a08f1c23b3dab
                 .setTicker(options.getText())
                 .setNumber(options.getNumber())
                 .setAutoCancel(options.isAutoClear())
